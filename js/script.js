@@ -1,6 +1,5 @@
 'use strict'
 
-// Modal
 
 const modalOpen = document.querySelectorAll('.store-item__button'),
    modalClose = document.querySelector('[data-close]'),
@@ -30,8 +29,7 @@ function closeModalWindow() {
 
 }
 modal.addEventListener('click', (event) => {
-   const target = event.target;
-   if (target === modal) {
+   if (event.target === modal) {
       closeModal();
    }
 })
