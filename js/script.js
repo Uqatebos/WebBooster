@@ -3,9 +3,7 @@
 
 const modalOpen = document.querySelectorAll('.store-item__button'),
    modalClose = document.querySelector('[data-close]'),
-   modal = document.querySelector('.modal'),
-   modalContent = document.querySelector('.modal__content'),
-   html = document.querySelector('html');
+   modal = document.querySelector('.modal');
 
 function openModalWindow() {
    modalOpen.forEach((item) => {
